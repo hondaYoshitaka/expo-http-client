@@ -1,0 +1,42 @@
+{
+  "name": "expo-http-client",
+  "version": "0.0.12",
+  "description": "A simple HTTP client for Expo",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "EXPO_NONINTERACTIVE=1 expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-http-client",
+    "ExpoHttpClient"
+  ],
+  "repository": "https://github.com/hondaYoshitaka/expo-http-client",
+  "bugs": {
+    "url": "https://github.com/hondaYoshitaka/expo-http-client/issues"
+  },
+  "author": "hondaYoshitaka <yhonda1001@gmail.com> (https://github.com/hondaYoshitaka)",
+  "license": "MIT",
+  "homepage": "https://github.com/hondaYoshitaka/expo-http-client#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/react": "~18.3.12",
+    "expo-module-scripts": "^4.0.3",
+    "expo": "~51.0.0",
+    "react-native": "0.76.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}

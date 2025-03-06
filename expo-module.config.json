@@ -1,0 +1,16 @@
+{
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "ios": {
+    "modules": [
+      "ExpoHttpClientModule"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.httpclient.ExpoHttpClientModule"
+    ]
+  }
+}
